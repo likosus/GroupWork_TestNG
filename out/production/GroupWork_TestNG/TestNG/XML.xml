@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit">
+
+    <test name="test1">
+        <parameter name="aranacakKelime" value="Adobe Photoshop CS4"></parameter>
+        <parameter name="browserTipi" value="crome"></parameter>
+
+        <classes>
+            <class name="TestNG.TestNGgroup"></class>
+        </classes>
+    </test>
+
+</suite>
